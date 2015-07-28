@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/lib/esendex/message.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.76816076">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -452,7 +452,7 @@
     <entry file="file://$PROJECT_DIR$/lib/esendex/message.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76816076">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding />
         </state>
       </provider>

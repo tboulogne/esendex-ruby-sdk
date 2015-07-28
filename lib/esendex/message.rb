@@ -39,7 +39,7 @@ module Esendex
         doc.root.add_child(sms_type)
       end
 
-      puts doc.root
+      puts doc
       doc.root
     end
   end
