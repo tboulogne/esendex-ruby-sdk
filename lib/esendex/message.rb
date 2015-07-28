@@ -14,6 +14,7 @@ module Esendex
       @body = body
       @from = from
       @sms_type = sms_type
+
     end
     
     def xml_node
@@ -37,6 +38,14 @@ module Esendex
         sms_type = Nokogiri::XML::Node.new 'type', doc
         sms_type.content = @sms_type
         doc.root.add_child(sms_type)
+
+        sms_lang = Nokogiri::XML::Node.new 'lang', doc
+        sms_lang.content = "fr-FR"
+        doc.root.add_child(sms_lang)
+
+        sms_retries = Nokogiri::XML::Node.new 'retries', doc
+        sms_retries.content = 3
+        doc.root.add_child(sms_retries)
       end
 
       doc.root

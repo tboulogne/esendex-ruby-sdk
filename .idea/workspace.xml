@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6938a439-6cea-4085-aaf8-ee1044044fdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/esendex/message.rb" afterPath="$PROJECT_DIR$/lib/esendex/message.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/esendex/message_batch_submission.rb" afterPath="$PROJECT_DIR$/lib/esendex/message_batch_submission.rb" />
     </list>
     <ignored path="esendex-ruby-sdk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,20 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="message.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/esendex/message.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.88408035">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message_batch_submission.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="message_batch_submission.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/esendex/message_batch_submission.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.69860893">
+            <state vertical-scroll-proportion="0.0">
               <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
               <folding />
             </state>
@@ -87,8 +86,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/tasks/esendex.rake" />
-        <option value="$PROJECT_DIR$/lib/esendex/message.rb" />
         <option value="$PROJECT_DIR$/lib/esendex/message_batch_submission.rb" />
+        <option value="$PROJECT_DIR$/lib/esendex/message.rb" />
       </list>
     </option>
   </component>
@@ -443,18 +442,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/esendex/message.rb">
+    <entry file="file://$PROJECT_DIR$/lib/esendex/message_batch_submission.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/esendex/message_batch_submission.rb">
+    <entry file="file://$PROJECT_DIR$/lib/esendex/message.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69860893">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.88408035">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
           <folding />
         </state>
       </provider>
