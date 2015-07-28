@@ -24,7 +24,7 @@ namespace :esendex do
       batch_id = account.send_message(args)
       puts "Message sent to #{args.to}. Batch ID: #{batch_id}"
     rescue => e
-      puts "Failed to send message #{e.message}"
+      puts "Failed to send message #{e.message} #{args}"
     end
   end
 end
