@@ -38,7 +38,8 @@ module Esendex
       @messages.each do |message|
         doc.root.add_child(message.xml_node)
       end
-      
+
+      puts doc
       doc.root
     end
     
