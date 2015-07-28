@@ -1,0 +1,1 @@
+rake esendex:send_message["0643183119","Bonjour Thierry, comment vas-tu","0643183119","Voice"] ESENDEX_USERNAME="contact@tng-concepts.com "ESENDEX_PASSWORD="con1206ese!" ESENDEX_ACCOUNT="EX0160816"
