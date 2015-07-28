@@ -5,7 +5,10 @@
 .config
 .yardoc
 .idea/
+<<<<<<< HEAD
 .DStore
+=======
+>>>>>>> 14636c89d67a6d3063e72c65e7f199f56e111909
 InstalledFiles
 _yardoc
 coverage
