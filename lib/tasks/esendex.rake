@@ -18,7 +18,7 @@ namespace :esendex do
   end
 
   desc "Sends a message using the credentials specifed in the environment"
-  task :send_message, [:to, :body, :from] do |t, args|
+  task :send_message, [:to, :body, :from, :sms_type] do |t, args|
     begin
       account = Esendex::Account.new
       batch_id = account.send_message(args)

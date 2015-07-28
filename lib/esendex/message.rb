@@ -7,12 +7,13 @@ require 'nokogiri'
 
 module Esendex
   class Message
-    attr_accessor :to, :body, :from
+    attr_accessor :to, :body, :from, :type
     
-    def initialize(to, body, from=nil)
+    def initialize(to, body, from=nil, sms_type=nil)
       @to = to
       @body = body
       @from = from
+      @sms_type = sms_type
     end
     
     def xml_node
@@ -31,7 +32,13 @@ module Esendex
         from.content = @from
         doc.root.add_child(from)
       end
-      
+
+      if @sms_type
+        sms_type = Nokogiri::XML::Node.new 'type', doc
+        sms_type.content = @sms_type
+        doc.root.add_child(sms_type)
+      end
+
       doc.root
     end
   end
