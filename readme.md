@@ -51,6 +51,13 @@ Multiple messages are sent by passing an array of `Messages` to the `send_messag
 batch_id = account.send_messages([Message.new("07777111222", "Hello"), Message.new("07777111333", "Hi")])
 ```
 
+### Sending Voice Messages
+```ruby
+account = Account.new
+batch_id = account.send_message( to: "07777111222", body: "Saying hello to the world with the help of Esendex", sms_type:"Voice", voice_lang:"fr-FR", voice_retries: 2)
+```
+
+
 ### Testing Configuration
 
 The Esendex Gem ships with a couple of rake tasks that allow you to simply validate that all is well.

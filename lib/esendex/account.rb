@@ -23,8 +23,11 @@ module Esendex
     def send_message(args={})
       raise ArgumentError.new(":to required") unless args[:to]
       raise ArgumentError.new(":body required") unless args[:body]
+      if  args[:sms_type] == "Voice"
+        raise ArgumentError.new(":lang required") unless args[:voice_lang]
+      end
 
-      send_messages([Message.new(args[:to], args[:body], args[:from],args[:sms_type])])
+      send_messages([Message.new(args[:to], args[:body], args[:from],args[:sms_type],args[:voice_lang],args[:voice_retries])])
     end
     
     def send_messages(messages)

@@ -18,13 +18,13 @@ namespace :esendex do
   end
 
   desc "Sends a message using the credentials specifed in the environment"
-  task :send_message, [:to, :body, :from, :sms_type] do |t, args|
+  task :send_message, [:to, :body, :from, :sms_type, :voice_lang, :voice_retries] do |t, args|
     begin
       account = Esendex::Account.new
       batch_id = account.send_message(args)
       puts "Message sent to #{args.to}. Batch ID: #{batch_id}"
     rescue => e
-      puts "Failed to send message #{e.message} #{args}"
+      puts "Failed to send message #{e.message}"
     end
   end
 end

@@ -39,7 +39,6 @@ module Esendex
         doc.root.add_child(message.xml_node)
       end
 
-      puts doc
       doc.root
     end
     
