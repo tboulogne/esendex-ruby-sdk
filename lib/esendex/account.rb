@@ -24,7 +24,7 @@ module Esendex
       raise ArgumentError.new(":to required") unless args[:to]
       raise ArgumentError.new(":body required") unless args[:body]
 
-      send_messages([Message.new(args[:to], args[:body], args[:from])])
+      send_messages([Message.new(args[:to], args[:body], args[:from],args[:sms_type])])
     end
     
     def send_messages(messages)

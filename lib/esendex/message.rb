@@ -7,7 +7,7 @@ require 'nokogiri'
 
 module Esendex
   class Message
-    attr_accessor :to, :body, :from, :type
+    attr_accessor :to, :body, :from, :sms_type
     
     def initialize(to, body, from=nil, sms_type=nil)
       @to = to
